@@ -9,7 +9,7 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.scss">
+    <link rel="stylesheet" href="style.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,21 +24,8 @@
       <!-- Static navbar -->
       <nav class="navbar navbar-default">
         <div class="container-fluid nav-color">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" id="title" href="#">Who Said What?</a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li><a id="home" href="#">Home</a></li>
-              <li><a id="view" href="#">View All</a></li>
-              <li><a id="add"  href="#">Add New</a></li>
-            </ul>
+          <div class="navbar-header qheader">
+            <a class="navbar-brand" id="title" href="#">QuoteKeeper</a>
             <form class="navbar-form" role="search">
               <div class="input-group add-on">
                 <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
@@ -47,9 +34,13 @@
                 </div>
               </div>
             </form>
-          </div><!--/.nav-collapse -->
+          </div>
         </div><!--/.container-fluid -->
       </nav>
+      <div class="subnav">
+        <h5>VIEW ALL</h5>
+        <h5>ADD NEW</h5>
+      </div>
     </div>
 
     <div class="view-quote">
